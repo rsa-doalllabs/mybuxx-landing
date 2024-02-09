@@ -1,3 +1,4 @@
+import Footer from "components/Footer/Footer"
 import "styles/tailwind.css"
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

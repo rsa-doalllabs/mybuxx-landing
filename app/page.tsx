@@ -1,7 +1,12 @@
 import { Metadata } from "next"
 import { Button } from "components/Button/Button"
 import { LP_GRID_ITEMS } from "lp-items"
-import {MyBuxxLogo} from "../images/Mybuxx-Logo-DataURI"
+import Navbar from "components/Navigation/Navbar"
+import Stats from "./sections/Stats"
+import BasicContext from "./sections/BasicContext"
+import 'styles/main.css'
+import BasicFeature from "./sections/BasicFeature"
+import Footer from "components/Footer/Footer"
 
 export const metadata: Metadata = {
   title: "Next.js Enterprise Boilerplate",
@@ -19,16 +24,17 @@ export const metadata: Metadata = {
     ],
   },
 }
+// background: linear-gradient(180deg, #C2FBFF 0%, rgba(255, 255, 255, 0) 93.47%);
 
 export default function Web() {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900">
-        <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
+      <section id="about" className="hero-section dark:bg-gray-900">
+        <Navbar/>
+        <div  className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
-            <img src={MyBuxxLogo} width="300" alt="dt-logo"/>
-            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
-              MyBUXX Temp Site
+            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-gray-600 md:text-5xl xl:text-6xl">
+              Welcome to MyBUXX, a Hands off Payment Solution
             </h1>
              <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
              A Texas based business focused on internet payment service providing a financial platform as a mobile application merchant provider to the public.  The mobile application target social media, internet users, public, local businesses, and individuals with the convenience of transferring and receiving transaction electronically on real-time, utilizing technology that ensures quick access to funds.
@@ -46,9 +52,16 @@ export default function Web() {
           </div>
         </div>
       </section>
-      <section>
-
+      <section id="mission">
+        <BasicContext/>
       </section>
+      <section id="demand">
+        <Stats />
+      </section>
+      <section id="feature">
+        <BasicFeature/>
+      </section>
+      <Footer/>
       {/* <section className="bg-white dark:bg-gray-900">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
           <div className="justify-center space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3">
