@@ -25,13 +25,23 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
 
-          <div className="flex items-center">
+          <div className="flex flex-col items-center">
             {/* Replace with your actual logo */}
             <img src={Mybuxx_Primary} width="300" alt="dt-logo" />
-            {/* <span className="font-bold text-lg ml-3">Keep in Touch</span> */}
+            <div className="dual-column">
+              <span className="font-bold text-md ml-3">Address:</span>
+              <span className="font-regular text-md ml-3">17828 Mound Road, STE E, Cypress Texas 77433</span>
+              <span className="font-bold text-md ml-3">Sales Phone:</span>
+              <span className="font-regular text-md ml-3">239-686-0022</span>
+              <span className="font-bold text-md ml-3">Office Phone:</span>
+              <span className="font-regular text-md ml-3">239-686-0033</span>
+              <span className="font-bold text-md ml-3">Email:</span>
+              <span className="font-regular text-md ml-3">info@mybuxx.net</span>
+              <span className="font-regular text-sm ml-3 text-gray-400">© 2024 - MyBuxx</span>
+            </div>
           </div>
           <div>
-            <Waitlist/>
+            <Waitlist />
           </div>
           <div className="flex">
             {/* The navigation items */}
