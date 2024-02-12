@@ -17,16 +17,21 @@
 import Image from 'next/image';
 import React from 'react';
 import { Mybuxx_Primary } from 'images/Mybuxx-Primary';
+import Waitlist from 'app/sections/Waitlist';
 
 const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-100 h-full">
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
+
           <div className="flex items-center">
             {/* Replace with your actual logo */}
             <img src={Mybuxx_Primary} width="300" alt="dt-logo" />
-            <span className="font-bold text-lg ml-3">Keep in Touch</span>
+            {/* <span className="font-bold text-lg ml-3">Keep in Touch</span> */}
+          </div>
+          <div>
+            <Waitlist/>
           </div>
           <div className="flex">
             {/* The navigation items */}

@@ -16,6 +16,7 @@
 
 
 import React from 'react'
+import { MyBuxx_Iphone } from 'images/MyBuxx-Iphone'
 
 const BasicFeature = () => {
   return (
@@ -28,13 +29,13 @@ const BasicFeature = () => {
 
             <a href="#" className="text-blue-600 hover:underline"> Page Types and Components</a>.
           </p>
-          <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition duration-300">
+          <button className="primary-color text-white px-6 py-2 rounded-md hover:bg-blue-700 transition duration-300">
             Join the Wait List
           </button>
         </div>
         <div className="flex-1 order-1">
           {/* Assuming you have an illustration.png in your public directory */}
-          <img src="/illustration.png" alt="Customize Illustration" className="w-1/2 mx-auto"/>
+          <img src={MyBuxx_Iphone} width={500} alt='MyBuxxIphone'/>
         </div>
       </div>
     </div>

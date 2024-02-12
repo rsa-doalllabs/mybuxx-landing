@@ -26,7 +26,7 @@ const BasicContext = () => {
             Customers are demanding more privacy, efficiency, and control over how they pay for entertainment businesses’ streaming services, including subscriptions and in-game purchases not limited to frequent on-line high-volume transactions.MYBUXX mobile application, outline the forces of changing consumers’ expectations, from evolving technology, driving better connectivity and efficiency, to a greater demand for security, and how alternative payment methods (APMs) can help entertainment businesses evolve and thrive motivated with today`&apos`s trend.
           <a href="#" className="text-blue-600 hover:underline"> Page Types and Components</a>.
         </p>
-        <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition duration-300">
+        <button className="primary-color bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition duration-300">
           Join the Wait List
         </button>
       </div>

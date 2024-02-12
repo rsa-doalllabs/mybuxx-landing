@@ -24,3 +24,17 @@ html {
 .hero-section {
   background: linear-gradient(180deg, #C2FBFF 0%, rgba(255, 255, 255, 0) 93.47%);
 }
+
+.primary-color{
+  background-color: #79CFDF;
+  border-color: #79CFDF;
+}
+
+.primary-border{
+  border-color: #79CFDF;
+}
+
+.secondary-color{
+  background-color: #282561;
+
+}
