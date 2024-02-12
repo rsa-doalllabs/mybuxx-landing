@@ -20,7 +20,7 @@ import { MyBuxxCandidUser } from 'images/MyBuxxCandidUser'
 const BasicContext = () => {
   return (
     <div className="bg-white p-10">
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container mx-auto flex flex-row sm:max-md:flex-col items-center justify-between">
         <div className="flex-1">
           <h2 className="text-4xl font-semibold mb-4">Our Mission</h2>
           <p className="text-gray-500 mb-6">
