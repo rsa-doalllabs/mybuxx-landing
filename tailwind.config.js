@@ -16,7 +16,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'xs': '475px', // your new smaller breakpoint
+      'xs': '300px', // your new smaller breakpoint
       ...defaultTheme.screens, // spread the default breakpoints after your custom one
     },
     extend: {
