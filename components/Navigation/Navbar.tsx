@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav className="flex justify-between items-center py-4">
       <div className="flex items-center w-full ">
         <img src={Mybuxx_Primary} width="300" alt="dt-logo" />
-        <div className='flex w-full me-10 justify-evenly'>
+        <div className='flex w-full me-10 justify-evenly xs:invisible'>
           <a href="#about" className="hover:text-red-600  pb-1 hover:font-semibold transition duration-600">About</a>
           <a href="#mission" className="ml-6 text-gray-800 hover:text-red-600 transition duration-600 hover:font-semibold">Mission</a>
           <a href="#demand" className="ml-6 text-gray-800 hover:text-red-600 transition duration-600 hover:font-semibold">Focus</a>
