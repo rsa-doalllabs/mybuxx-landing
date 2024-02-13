@@ -21,11 +21,11 @@ import { MyBuxx_Iphone } from 'images/MyBuxx-Iphone'
 const BasicFeature = () => {
   return (
     <div className="bg-white p-10 flex ">
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container mx-auto flex xs:max-md:flex-col items-center justify-between">
         <div className="flex-1 order-2">
           <h2 className="text-4xl font-semibold mb-4">Feature Focus</h2>
           <p className="text-gray-500 mb-6">
-          MYBUXX HAS AN AVERAGE CUSTOMER BASE OF TWENTY-SEVEN THOUSAND MEMBERS PARTICIPATING IN THE ONLINE SERVICE.  THE MOBILE APLICATION VOLUME CURRENTLY AVERAGES FORTY THOUSAND WEEKLY, THE RESULT IN HIGH TRAFFIC AND CUSTOMER CARE IS BASED ON MYBUXX, LLC LOW FEES AND TIMELY PAYMENT DELIVERABLES
+            MYBUXX HAS AN AVERAGE CUSTOMER BASE OF TWENTY-SEVEN THOUSAND MEMBERS PARTICIPATING IN THE ONLINE SERVICE.  THE MOBILE APLICATION VOLUME CURRENTLY AVERAGES FORTY THOUSAND WEEKLY, THE RESULT IN HIGH TRAFFIC AND CUSTOMER CARE IS BASED ON MYBUXX, LLC LOW FEES AND TIMELY PAYMENT DELIVERABLES
 
             <a href="#" className="text-blue-600 hover:underline"> Page Types and Components</a>.
           </p>
@@ -35,7 +35,7 @@ const BasicFeature = () => {
         </div>
         <div className="flex-1 order-1">
           {/* Assuming you have an illustration.png in your public directory */}
-          <img src={MyBuxx_Iphone} width={500} alt='MyBuxxIphone'/>
+          <img src={MyBuxx_Iphone} width={500} alt='MyBuxxIphone' />
         </div>
       </div>
     </div>

@@ -56,7 +56,7 @@ export default function Web() {
       <section id="mission">
         <BasicContext />
       </section>
-      <section id="demand" className="h-full" style={{ height: "100vh" }}>
+      <section id="demand" className="h-full">
         <Stats />
       </section>
       <section id="feature" className="h-full" style={{ height: "100vh" }}>

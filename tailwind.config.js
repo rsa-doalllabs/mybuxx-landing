@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { pick, omit } = require("lodash")
-const colors = require("tailwindcss/colors")
-const defaultTheme = require("tailwindcss/defaultTheme")
+const { pick, omit } = require("lodash");
+const colors = require("tailwindcss/colors");
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -15,6 +15,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      'xs': '475px', // your new smaller breakpoint
+      ...defaultTheme.screens, // spread the default breakpoints after your custom one
+    },
     extend: {
       colors: {
         primary: {
@@ -87,4 +91,4 @@ module.exports = {
   future: {
     hoverOnlyWhenSupported: true,
   },
-}
+};
