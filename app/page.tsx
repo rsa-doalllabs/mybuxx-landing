@@ -8,19 +8,20 @@ import 'styles/main.css'
 import BasicFeature from "./sections/BasicFeature"
 import Footer from "components/Footer/Footer"
 import Waitlist from "./sections/Waitlist"
+import { MyBuxxLogo } from '../images/Mybuxx-Logo-DataURI';
 
 export const metadata: Metadata = {
-  title: "Next.js Enterprise Boilerplate",
+  title: "MyBuxx",
   twitter: {
     card: "summary_large_image",
   },
   openGraph: {
-    url: "https://next-enterprise.vercel.app/",
+    url: "https://www.mybuxx.net",
     images: [
       {
         width: 1200,
         height: 630,
-        url: "https://raw.githubusercontent.com/Blazity/next-enterprise/main/.github/assets/project-logo.png",
+        url: MyBuxxLogo,
       },
     ],
   },
