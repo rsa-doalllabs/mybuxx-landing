@@ -17,6 +17,7 @@
 
 import React from 'react'
 import { MyBuxx_Iphone } from 'images/MyBuxx-Iphone'
+import { scrollToDiv } from 'utils/ClickScroll'
 
 const BasicFeature = () => {
   return (

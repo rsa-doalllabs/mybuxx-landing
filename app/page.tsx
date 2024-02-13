@@ -60,7 +60,7 @@ export default function Web() {
       <section id="demand" className="h-full">
         <Stats />
       </section>
-      <section id="feature" className="h-full" style={{ height: "100vh" }}>
+      <section id="feature" className="h-full" >
         <BasicFeature />
       </section>
 

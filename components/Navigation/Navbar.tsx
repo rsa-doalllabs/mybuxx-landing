@@ -15,6 +15,8 @@
  */
 import React from 'react'
 import { Mybuxx_Primary } from 'images/Mybuxx-Primary'
+import { scrollToDiv } from 'utils/ClickScroll'
+import { Button } from 'components/Button/Button'
 
 const Navbar = () => {
   return (
@@ -26,9 +28,9 @@ const Navbar = () => {
           <a href="#mission" className="ml-6 text-gray-800 hover:text-red-600 transition duration-600 hover:font-semibold">Mission</a>
           <a href="#demand" className="ml-6 text-gray-800 hover:text-red-600 transition duration-600 hover:font-semibold">Focus</a>
           <a href="#feature" className="ml-6 text-gray-800 hover:text-red-600 transition duration-600 hover:font-semibold">Feature</a>
-          <button className="secondary-color text-white  text-white px-6 py-2 rounded-md hover:bg-blue-700 transition duration-600 hover:font-semibold">
+          <Button href="#footer" className="secondary-color text-white  text-white px-6 py-2 rounded-md hover:bg-blue-700 transition duration-600 hover:font-semibold">
             Join the Wait List
-          </button>
+          </Button>
         </div>
 
       </div>
