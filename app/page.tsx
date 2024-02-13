@@ -9,6 +9,7 @@ import BasicFeature from "./sections/BasicFeature"
 import Footer from "components/Footer/Footer"
 import Waitlist from "./sections/Waitlist"
 import { MyBuxxLogo } from '../images/Mybuxx-Logo-DataURI';
+import VideoSection from "./sections/VideoSection"
 
 export const metadata: Metadata = {
   title: "MyBuxx",
@@ -59,6 +60,9 @@ export default function Web() {
       </section>
       <section id="demand" className="h-full">
         <Stats />
+      </section>
+      <section className="w-full h-full flex ">
+        <VideoSection />
       </section>
       <section id="feature" className="h-full" >
         <BasicFeature />
