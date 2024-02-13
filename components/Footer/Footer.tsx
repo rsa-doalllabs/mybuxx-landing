@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-100 h-full">
       <div className="container mx-auto px-6 py-4">
-        <div className="flex justify-between items-center">
+        <div className="flex xs:max-md:flex-col justify-between items-center">
 
           <div className="flex flex-col items-center">
             {/* Replace with your actual logo */}
