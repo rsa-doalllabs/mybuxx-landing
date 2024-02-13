@@ -21,11 +21,10 @@ import Waitlist from 'app/sections/Waitlist';
 
 const Footer: React.FC = () => {
   return (
-    <footer id='footer' className="bg-gray-100 h-full">
-      <div className="container mx-auto px-6 py-4">
-        <div className="flex xs:max-md:flex-col justify-between items-center">
-
-          <div className="flex flex-col items-center">
+    <footer id='footer' className="bg-gray-100 h-full xs:w-full">
+      <div className="container mx-auto px-6 py-4 xs:max-md:w-full">
+        <div className="flex xs:max-md:flex-col justify-between items-center xs:max-md:w-full">
+          <div className="flex flex-col items-center xs:max-md:w-full">
             {/* Replace with your actual logo */}
             <img src={Mybuxx_Primary} width="300" alt="dt-logo" />
             <div className="dual-column">

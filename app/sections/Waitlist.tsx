@@ -58,21 +58,21 @@ const Waitlist = () => {
     <div className="flex flex-col items-center p-8 rounded-lg h-full">
       <h2 className="text-2xl font-bold text-gray-600 mb-4">Join the Waitlist</h2>
       <form className="w-full max-w-sm" onSubmit={handleSubmit}>
-        <div className="primary-border flex items-center border-b-2 border-teal-500 py-2">
+        <div className="md:primary-border flex xs:max-md:flex-col xs:justify-between xs:max-md:h-60 items-center md:border-b-2  py-2">
           <input
-            className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none ms-8"
+            className="appearance-none border-b-2 primary-border bg-transparent border-bottom w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none md:ms-8"
             type="text"
             placeholder="Name"
             aria-label="Name"
           />
           <input
-            className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none me-8"
+            className="appearance-none border-b-2 primary-border bg-transparent border-bottom w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none md:me-8"
             type="email"
             placeholder="Email"
             aria-label="Email"
           />
           <button
-            className="primary-color flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+            className="primary-color flex-shrink-0 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
             type="button"
           >
             Submit
