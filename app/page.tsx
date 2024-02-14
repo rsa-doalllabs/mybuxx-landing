@@ -7,7 +7,6 @@ import BasicFeature from "./sections/BasicFeature"
 import Footer from "components/Footer/Footer"
 import { MyBuxxLogo } from '../images/Mybuxx-Logo-DataURI';
 import VideoSection from "./sections/VideoSection"
-import CardMenu from "components/CardMenu/CardMenu"
 
 export const metadata: Metadata = {
   title: "MyBuxx",
@@ -32,7 +31,6 @@ export default function Web() {
     <>
       <section id="about" className="hero-section dark:bg-gray-900">
         <Navbar />
-        <CardMenu />
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
             <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-gray-600 md:text-5xl xl:text-6xl">
