@@ -1,15 +1,13 @@
 import { Metadata } from "next"
-import { Button } from "components/Button/Button"
-import { LP_GRID_ITEMS } from "lp-items"
 import Navbar from "components/Navigation/Navbar"
 import Stats from "./sections/Stats"
 import BasicContext from "./sections/BasicContext"
 import 'styles/main.css'
 import BasicFeature from "./sections/BasicFeature"
 import Footer from "components/Footer/Footer"
-import Waitlist from "./sections/Waitlist"
 import { MyBuxxLogo } from '../images/Mybuxx-Logo-DataURI';
 import VideoSection from "./sections/VideoSection"
+import CardMenu from "components/CardMenu/CardMenu"
 
 export const metadata: Metadata = {
   title: "MyBuxx",
@@ -34,6 +32,7 @@ export default function Web() {
     <>
       <section id="about" className="hero-section dark:bg-gray-900">
         <Navbar />
+        <CardMenu />
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
             <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-gray-600 md:text-5xl xl:text-6xl">
@@ -43,15 +42,6 @@ export default function Web() {
               A Texas based business focused on internet payment service providing a financial platform as a mobile application merchant provider to the public.  The mobile application target social media, internet users, public, local businesses, and individuals with the convenience of transferring and receiving transaction electronically on real-time, utilizing technology that ensures quick access to funds.
 
             </p>
-            {/* <Button href="https://github.com/Blazity/next-enterprise" className="mr-3">
-              Get started
-            </Button>
-            <Button
-              href="https://vercel.com/new/git/external?repository-url=https://github.com/Blazity/next-enterprise"
-              intent="secondary"
-            >
-              Deploy Now
-            </Button>  */}
           </div>
         </div>
       </section>

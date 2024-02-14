@@ -15,15 +15,15 @@
  */
 import React from 'react'
 import { Mybuxx_Primary } from 'images/Mybuxx-Primary'
-import { scrollToDiv } from 'utils/ClickScroll'
 import { Button } from 'components/Button/Button'
+import HamburgerMenu from 'components/Hamburger/HamburgerMenu'
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center py-4">
-      <div className="flex items-center w-full ">
+    <nav className="flex justify-between items-center py-4 top-0  ">
+      <div className="flex items-center w-full  ">
         <img src={Mybuxx_Primary} width="300" alt="dt-logo" />
-        <div className='flex w-full me-10 justify-evenly xs:invisible'>
+        <div className='flex w-full me-10 justify-evenly xs:max-lg:invisible'>
           <a href="#about" className="hover:text-red-600  pb-1 hover:font-semibold transition duration-600">About</a>
           <a href="#mission" className="ml-6 text-gray-800 hover:text-red-600 transition duration-600 hover:font-semibold">Mission</a>
           <a href="#demand" className="ml-6 text-gray-800 hover:text-red-600 transition duration-600 hover:font-semibold">Focus</a>
@@ -32,7 +32,9 @@ const Navbar = () => {
             Join the Wait List
           </Button>
         </div>
-
+        <div className='lg:invisible'>
+          <HamburgerMenu />
+        </div>
       </div>
     </nav>
   )

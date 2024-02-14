@@ -22,7 +22,7 @@ import { Button } from 'components/Button/Button'
 const BasicContext = () => {
   return (
     <div className="bg-white p-10">
-      <div className="container mx-auto flex flex-row xs:max-md:flex-col items-center justify-between">
+      <div className="container mx-auto flex flex-row xs:max-lg:flex-col items-center justify-between">
         <div className="flex-1">
           <h2 className="text-4xl font-semibold mb-4">Our Mission</h2>
           <p className="text-gray-500 mb-6">

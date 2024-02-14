@@ -22,7 +22,7 @@ import { scrollToDiv } from 'utils/ClickScroll'
 const BasicFeature = () => {
   return (
     <div className="bg-white p-10 flex ">
-      <div className="container mx-auto flex xs:max-md:flex-col items-center justify-between">
+      <div className="container mx-auto flex xs:max-lg:flex-col items-center justify-between">
         <div className="flex-1 order-2">
           <h2 className="text-4xl font-semibold mb-4">Feature Focus</h2>
           <p className="text-gray-500 mb-6">
