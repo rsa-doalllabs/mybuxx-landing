@@ -15,7 +15,7 @@
  */
 
 import React from 'react'
-import { MyBuxxCandidUser } from 'images/MyBuxxCandidUser'
+import { MyBuxxCoffeePrimary } from 'images/MyBuxx-Coffee-Primary'
 import { scrollToDiv } from 'utils/ClickScroll'
 import { Button } from 'components/Button/Button'
 
@@ -35,7 +35,7 @@ const BasicContext = () => {
         </div>
         <div className="flex-1 xs:max-md:my-10">
           {/* Assuming you have an illustration.png in your public directory */}
-          <img src={MyBuxxCandidUser} alt="Image by cookie_studio on Freepik" className="w-3/4   mx-auto" />
+          <img src={MyBuxxCoffeePrimary} alt="Image by cookie_studio on Freepik" className="w-3/4   mx-auto" />
         </div>
       </div>
     </div>
