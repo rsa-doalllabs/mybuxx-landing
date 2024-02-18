@@ -23,14 +23,8 @@ const VideoSection = () => {
 
   return (
     <Suspense fallback="<p>...Loading video...</p>">
-      <video preload='none' className='flex h-full w-full' loop playsInline controls autoPlay >
-        <source src={'../../public/5044131_cash_man_credit_3840x2160.mp4'} type='video/mp4' />
-        <track
-          src="/path/to/captions.vtt"
-          kind="subtitles"
-          srcLang="en"
-          label="English"
-        />
+      <video className='flex h-full w-full' loop playsInline controls autoPlay muted>
+        <source src={require('../../public/videos/cashman.mp4')} type='video/mp4' />
       </video>
     </Suspense>
   )
