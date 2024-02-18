@@ -13,18 +13,26 @@
  * Date      	By	Comments
  * ----------	---	---------------------------------------------------------
  */
-import React from 'react'
+
+'use client'
+
+import React, { Suspense } from 'react'
+
 
 const VideoSection = () => {
+
   return (
-    <video src="/videos/5044131_cash_man_credit_3840x2160.mp4" preload='auto' className='flex h-full w-full' loop playsInline controls autoPlay >
-      <track
-        src="/path/to/captions.vtt"
-        kind="subtitles"
-        srcLang="en"
-        label="English"
-      />
-    </video>
+    <Suspense fallback="<p>...Loading video...</p>">
+      <video preload='none' className='flex h-full w-full' loop playsInline controls autoPlay >
+        <source src={'../../public/5044131_cash_man_credit_3840x2160.mp4'} type='video/mp4' />
+        <track
+          src="/path/to/captions.vtt"
+          kind="subtitles"
+          srcLang="en"
+          label="English"
+        />
+      </video>
+    </Suspense>
   )
 }
 
