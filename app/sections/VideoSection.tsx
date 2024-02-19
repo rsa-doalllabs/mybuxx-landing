@@ -16,15 +16,33 @@
 
 'use client'
 
-import React, { Suspense } from 'react'
+import { useInView } from 'framer-motion'
+import React, { Suspense, useEffect, useRef } from 'react'
 
 
 const VideoSection = () => {
+  const videoRef = useRef<HTMLVideoElement>(null!)
+  const isInView = useInView(videoRef)
+
+  const url = '/public/videos/cashman.mp4'
+
+  useEffect(() => {
+    if (isInView) {
+      videoRef.current.play()
+    }
+  }, [isInView])
 
   return (
     <Suspense fallback="<p>...Loading video...</p>">
-      <video className='flex h-full w-full' loop playsInline controls autoPlay muted>
-        <source src={require('../../public/videos/cashman.mp4')} type='video/mp4' />
+      <video className='flex h-full w-full'
+        ref={videoRef}
+        src={url}
+        controls={false}
+        muted={true}
+        loop={true}
+        autoPlay={true}
+        playsInline={true}
+      >
       </video>
     </Suspense>
   )
