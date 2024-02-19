@@ -49,9 +49,9 @@ export default function Web() {
       <section id="demand" className="h-full">
         <Stats />
       </section>
-      <section className="w-full h-full flex ">
+      {/* <section className="w-full h-full flex ">
         <VideoSection />
-      </section>
+      </section> */}
       <section id="feature" className="h-full" >
         <BasicFeature />
       </section>
