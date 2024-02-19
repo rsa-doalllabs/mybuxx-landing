@@ -37,7 +37,7 @@ export default function Web() {
               <span className="text-blue-800"> Welcome to MYBUXX, Electronic Digital Payment Solution </span>
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-              A Texas based business focused on internet payment service providing a financial platform as a mobile application merchant provider to the public.  The mobile application target social media, internet users, public, local businesses, and individuals with the convenience of transferring and receiving transaction electronically on real-time, utilizing technology that ensures quick access to funds.
+              Based in Texas, MYBUXX App is revolutionizing internet payment services by offering a dynamic financial platform through its mobile application. As a merchant provider, MYBUXX App caters to a wide audience, including social media enthusiasts, internet users, the general public, local businesses, and individuals. The app transforms the way transactions are conducted, providing the convenience of transferring and receiving funds electronically in real-time. Utilizing cutting-edge technology, MYBUXX App ensures quick access to funds, making every transaction seamless and efficient. Dive into the future of payments with MYBUXX App and experience the ultimate convenience at your fingertips!
 
             </p>
           </div>

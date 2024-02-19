@@ -26,8 +26,9 @@ const BasicContext = () => {
         <div className="flex-1">
           <h2 className="text-4xl font-semibold mb-4">Our Mission</h2>
           <p className="text-gray-500 mb-6">
-            Customers are demanding more privacy, efficiency, and control over how they pay for entertainment businesses’ streaming services, including subscriptions and in-game purchases not limited to frequent on-line high-volume transactions.MYBUXX mobile application, outline the forces of changing consumers’ expectations, from evolving technology, driving better connectivity and efficiency, to a greater demand for security, and how alternative payment methods (APMs) can help entertainment businesses evolve and thrive motivated with today`&apos`s trend.
-            <a href="#" className="text-blue-600 hover:underline"> Page Types and Components</a>.
+            Customers are increasingly demanding more privacy, efficiency, and control over how they pay for entertainment businesses streaming services. This includes subscriptions and in-game purchases, not limited to frequent online high-volume transactions.
+
+            The MYBUXX mobile application outlines the forces changing consumer expectations, from evolving technology driving better connectivity and efficiency, to a greater demand for security. It also discusses how alternative payment methods (APMs) can help entertainment businesses evolve and thrive, motivated by todays trends.
           </p>
           <Button href='#footer' className="primary-color bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition duration-300">
             Join the Wait List
