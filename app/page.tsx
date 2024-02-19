@@ -34,7 +34,7 @@ export default function Web() {
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
             <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-gray-600 md:text-5xl xl:text-6xl">
-              <span className="text-blue-800"> Welcome to MYBUXX, Electronic Digital Payment Solution </span>
+              <span className="text-blue-900"> Welcome to MYBUXX, Electronic Digital Payment Solution.</span>
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
               Based in Texas, MYBUXX App is revolutionizing internet payment services by offering a dynamic financial platform through its mobile application. As a merchant provider, MYBUXX App caters to a wide audience, including social media enthusiasts, internet users, the general public, local businesses, and individuals. The app transforms the way transactions are conducted, providing the convenience of transferring and receiving funds electronically in real-time. Utilizing cutting-edge technology, MYBUXX App ensures quick access to funds, making every transaction seamless and efficient. Dive into the future of payments with MYBUXX App and experience the ultimate convenience at your fingertips!
